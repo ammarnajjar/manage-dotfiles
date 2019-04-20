@@ -10,7 +10,7 @@
     - name: Dotfiles
       repo: dotfiles
       dest: "{{ dotfiles_dir }}"
-      branch: ansible
+      branch: master
     - name: ColorScheme
       repo: wombat256mod
       dest: "{{ dotfiles_dir }}/plugged/wombat256mod"
