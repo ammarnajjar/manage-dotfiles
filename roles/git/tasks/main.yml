@@ -11,7 +11,11 @@
       repo: dotfiles
       dest: "{{ dotfiles_dir }}"
       branch: master
-    - name: ColorScheme
+    - name: vscode ColorScheme
+      repo: vim-code-dark
+      dest: "{{ dotfiles_dir }}/plugged/vim-code-dark"
+      branch: master
+    - name: wombat ColorScheme
       repo: wombat256mod
       dest: "{{ dotfiles_dir }}/plugged/wombat256mod"
       branch: master
