@@ -15,6 +15,10 @@
       repo: vim-code-dark
       dest: "{{ dotfiles_dir }}/plugged/vim-code-dark"
       branch: master
+    - name: One dark ColorScheme
+      repo: onedark.vim
+      dest: "{{ dotfiles_dir }}/plugged/onedark.vim"
+      branch: master
     - name: wombat ColorScheme
       repo: wombat256mod
       dest: "{{ dotfiles_dir }}/plugged/wombat256mod"
