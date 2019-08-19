@@ -22,6 +22,7 @@ brew "wget"
 brew "gnupg"
 brew "jq"
 brew "pre-commit"
+brew "node"
 
 cask "iterm2"
 cask "firefox"
