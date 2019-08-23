@@ -24,6 +24,7 @@ brew "gnupg"
 brew "jq"
 brew "pre-commit"
 brew "node"
+brew "direnv"
 
 cask "iterm2"
 cask "firefox"
