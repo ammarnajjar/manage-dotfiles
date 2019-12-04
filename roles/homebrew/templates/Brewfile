@@ -26,6 +26,7 @@ brew "pre-commit"
 brew "node"
 brew "nodenv"
 brew "direnv"
+brew "coreutils"
 
 cask "iterm2"
 cask "firefox"
