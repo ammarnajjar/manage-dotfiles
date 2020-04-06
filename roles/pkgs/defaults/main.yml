@@ -12,19 +12,13 @@ basic_pkgs:
 
 fedora_pkgs:
     - bash-completion
-    - ctags
     - firefox
-    - firejail
-    - flatpak
-    - gimp
+    - ctags
     - git-extras
     - gnupg
     - gnupg2
     - nodejs
     - pandoc
-    - pipenv
-    - python-pip
-    - python2-neovim
     - python3-devel
     - python3-pip
     - rsync
@@ -35,10 +29,10 @@ fedora_pkgs:
     - tar
     - the_silver_searcher
     - unzip
-    - vlc
     - which
     - youtube-dl
     - zip
+    - keepassx
 
 debian_pkgs:
     - build-essential
