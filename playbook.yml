@@ -12,4 +12,4 @@
       - role: tmux
       - role: neovim
 
-# ansible_plybook playbook.yml -i hosts.yml --check
+# ansible-playbook playbook.yml -i hosts.yml --check
