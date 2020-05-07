@@ -1,5 +1,9 @@
 ---
 # tasks file for tmux
 - name: Symlink tmux.conf
-  file: path=~/.tmux.conf src={{ dotfiles_dir }}/tmux/tmux.conf state=link force=yes
+  file:
+    path=~/.config/tmux
+    src={{ dotfiles_dir }}/tmux
+    state=link
+    force=yes
 
