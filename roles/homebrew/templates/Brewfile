@@ -6,6 +6,7 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 
 brew "ansible"
+brew "maccy"
 brew "coreutils"
 brew "ctags"
 brew "git"
