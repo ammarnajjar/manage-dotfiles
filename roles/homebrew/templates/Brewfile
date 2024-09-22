@@ -6,6 +6,7 @@ tap "homebrew/cask-fonts"
 tap "microsoft/mssql-release"
 
 brew "atuin"
+brew "mise"
 brew "autoconf"
 brew "automake"
 brew "bash"
